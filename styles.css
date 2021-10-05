@@ -1,0 +1,152 @@
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: xx-large;
+    color: #1A71F0;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #30AEDB;
+}
+
+p {
+    color: #161616;
+}
+
+body {
+    background-color: #e0e0e0;
+}
+
+.container {
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
+    background-color: #FFFFFF;
+    margin: 25px;
+}
+
+.containerBox {
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+}
+
+.containerBox-Box {
+    margin: 20px;
+    width: 20%;
+    display: inline-block;
+}
+
+.colourBox-primary {
+    background: #1A71F0;
+}
+
+.colourBox-text {
+    background: #161616;
+    color: #FFFFFF;
+}
+.colourBox-secondary {
+    background: #30AEDB;
+}
+.colourBox-background {
+    background: #e0e0e0;
+}
+
+.containerBox-child {
+    height: 50px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center 
+}
+
+.OpenSans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.OpenSans h3 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Montserrat h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.containerBox-child-buttonText {
+    border: 1px solid;
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: 5px 10px #888888;
+    background-color: #FFFFFF;
+}
+
+.containerBox-child-hoverText {
+    border: 1px solid;
+    border-radius: 20px;
+    margin: 20px;
+    padding: auto;
+    box-shadow: 5px 10px #888888;
+    background-color: #FFFFFF;
+}
+
+.button {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #000000;
+    border-radius: 12px;
+    box-shadow: 0 5px #999;
+    margin: 10px;
+}
+
+.button:active {
+    background-color: #E0E0E0;
+    color: black;
+    box-shadow: 0 1px #999;
+    transform: translateY(4px);
+}
+
+.button1:active {
+    background-color: #1A71F0;
+    color: white;
+    box-shadow: 0 1px #999;
+    transform: translateY(4px);
+}
+
+.button2:active {
+    background-color: #30AEDB;
+    color: white;
+    box-shadow: 0 1px #999;
+    transform: translateY(4px);
+}
+
+.button3:active {
+    background-color: #161616;
+    color: white;
+    box-shadow: 0 1px #999;
+    transform: translateY(4px);
+}
+
+.hover:hover {
+    background-color: #E0E0E0;
+    color: black;
+}
+
+.hover1:hover {
+    background-color: #1A71F0;
+    color: white;
+}
+
+.hover2:hover {
+    background-color: #30AEDB;
+    color: white;
+}
+
+.hover3:hover {
+    background-color: #161616;
+    color: white;
+}
